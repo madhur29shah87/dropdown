@@ -1,0 +1,34 @@
+.dd-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.content-width {
+    width: 340px;
+}
+
+.show-menu {
+    display: block;
+    position: unset;
+}
+.dropdown-item:hover {
+    background-color: transparent !important;
+} 
+
+.mouse-hover:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: lightgreen !important;
+}
+
+.dropdown-item > p {
+    margin: auto;
+    font-size: small;
+}
+
+.itemHover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: lightgreen;
+}
