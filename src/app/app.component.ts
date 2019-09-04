@@ -138,7 +138,8 @@ export class AppComponent {
     this.initialIndex = item;
     this.enableHover = true;
     // debugger;
-    event.currentTarget.classList.add('mouse-hover')
+    const target = event.currentTarget as HTMLElement;
+    target.classList.add('mouse-hover')
     // document.querySelector('.mouse-hover');
   }
 }
